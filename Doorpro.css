@@ -371,7 +371,7 @@ form img:hover{
 .doors{
     display: flex;
     background-color: white;
-    padding: 15px;
+    padding: 5px;
     flex-direction: column;
     align-items: center;
 }
@@ -420,6 +420,7 @@ form img:hover{
    .door{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
+    gap: 3px;
    } 
 
    .about_us_hero_image img{
@@ -482,14 +483,6 @@ form img:hover{
     padding:5px;
     margin:5px;
 }
-
-@media(max-width:700px) {
-    .feature_list{
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        gap:10px;
-
-    }   }
     
 .feature_list{
     display:grid;
@@ -501,6 +494,14 @@ form img:hover{
     padding:10px;
     height:100vh;
 }
+@media(max-width:700px) {
+    .feature_list{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap:5px;
+
+    }   }
+
 .feature_class{
     border:1px solid #b70909;
     width: 100%;
