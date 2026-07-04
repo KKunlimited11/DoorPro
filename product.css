@@ -476,6 +476,10 @@ h3{
         grid-template-columns: repeat(2, 1fr);
         background: transparent;
     }
+  .order_form{
+    width:100%;
+    height:40vh;
+  }
 }
 
 .order_form{
