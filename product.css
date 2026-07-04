@@ -477,7 +477,7 @@ h3{
         background: transparent;
     }
   .order_form{
-    width:100%;
+    width:100vh;
     height:47vh;
   }
 }
