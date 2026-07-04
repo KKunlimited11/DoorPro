@@ -78,7 +78,8 @@ nav ul li:last-child{
 .nav_button{
     margin-right: 100px;
 }
-
+nav a{display:none;
+     }
 
 }
 
