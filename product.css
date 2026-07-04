@@ -70,16 +70,9 @@ nav ul li:first-child{
 
 @media (max-width: 800px){
     
-nav ul li:last-child{
-    position: fixed;
-    z-index: 30;
-}
 
-.nav_button{
-    margin-right: 100px;
-}
-.navv li {display:none;
-     }
+.navv li a{display: none;}
+
 
 }
 
