@@ -427,7 +427,8 @@ color: #fff;
     color: #020202;
     margin-left: 2%;
     padding-top: 10px;
-    font-size: clap(1rem, 1vw, 2rem)
+    font-size: clap(1rem, 1vw, 2rem);
+  margin-top:2%;
     padding-bottom: 0.2%;
     white-space: nowrap;  /* 1. Forces all text onto a single line */
      /* 2. Hides the text that spills out of the container */
